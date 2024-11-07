@@ -1,169 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AUTOGLITTERZ</title>
-    <style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AUTOGLITTERZ</title>
+        <style>
+            
             *{
-                margin: 0px;
-                padding-top: 0px;
-                background-color: white;
-                height: 55%;
-                width: 98%;
-
+                margin: 0;
+                padding: 0;
+                
             }
             body{
-                font-size: 16px;
+                background-color: #ffffff;
+
             }
-            body h6{
-                margin-top: 5%;
-                margin-bottom: 5%;
-                font-size: 17.5px;
-            }
-                #Mydiv{
-                margin-right:0;
-                margin-left: 10px;
-                margin-top: 0;
+            .phone{
                 background-color: black;
-                color: rgb(97, 10, 10);
-                height: 55px;
-                width: 105%;
-                border-radius: 6px;
-                text-align:calc(40px);
+                color: #ffffff;
+                height: 50px;
+                font-weight: 900;
             }
-            #MyId {
+            span.icons {
+                margin-left: 430px;
+                padding-top: 10px;
+                height: 10px;
+            }
+            i{
+                padding-top: 18.5px;
+                padding-left: 20px;
+            }
+
+            #MyId{
+                margin-top: 12px;
+                margin-left: 35px;
                 display: flex;
-                margin-left: 8%;
-                margin-top: 5px;
             }
-            #MyCar{
-                background-color: white;
+
+            ul{
+                margin-left: 108px;
+                text-decoration-line: none;
+                
+            }
+            li{
+                float: inline-start;
+                margin-left: 24px;
+                margin-top: 28.5px;
+                list-style: none;
+                
+            }
+            a{
+                color: #404040;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            .btn{
+                margin-left: 130px;
+                width: 126px;
+                margin-top: 20px;
+                padding: 8px;
+                background-color: #08395b;
+                color: #ffffff;
+                border-radius: 5px;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            #MyCar h1{
+
             }
             .Myclass{
-                width: 200px;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: auto;
+                margin-left: 510px;
+                margin-top: 170px;
             }
-            ul{
-                display: flex;
-                margin-left: 9%;
-                /* margin-right: 15%; */
-                margin-top: 30px;
-                padding: 5px 5px 0px 12px;
-                font-size: 14px;
-                font-family: serif;
-                text-align: center;
-                }
-             li{
-                    display: block;
-             }
-             li a {
-                    color: rgb(48, 3, 3);
-                    padding: 0px;
-                    margin-left:8%;
-                    margin-right: 10px;
-                    margin-top: 20px;
-                    text-decoration: none;
-
-             }
-             button{
-                    margin-left: 1%;
-                    border-radius: 7px;
-                    background-color: rgb(194, 152, 100);
-                    font-size: 18px;
-                    
-                }
-                button{
-                    background-color: rgb(57, 53, 87);
-                    color: white;
-                }
-                .Mybutton, .Mybutton1{
-                    margin-left: 8%;
-                    text-align: center;
-                    margin-top: 40px;
-                    height: 32%;
-                    width: 13%;
-                    color: rgb(238, 243, 243);
-                    background-color: #121212;
-             }
-             .Mybutton1{
-                    background-color: #08395b;
-                    margin-right: 1%;
-                    margin-left: 1%;
-             }
-             h3{
-                    margin-left: 8%;
-                    color: #083958;
-                    font-size: 25px;
-                    font-family: serif;
-             }
-    
-             h1 {
-                    margin-left: 8%;
-                    font-size: 44px;
-                    color: #020202;
-                    font-family: serif;
-             }
-             h6 {
-                 margin-left: 8%;
-                 font-size: 15px;
-                 font-family: none;
-                 color: #404040;
-                 margin-top: 30px;
-             }
-             .icons{
-                margin-left: 36%;
-                margin-top: 10%;
-                margin-bottom: 10%;
+            h3{
+                margin-left: 43px;
+                margin-top: -365px;
+                font-size: 26px;
+                color: #08395b;
+            }
+            h1{
+                font-size: 52px;
+                margin-left: 37px;
+                font-size: 52px;
+                letter-spacing: -2px;
+                margin-bottom: 20px;
+                line-height: 52px;
+                font-weight: 500;
+                margin-top: 24px;
+            }
+            h6{
+                font-size: 17px;
+                margin-top: 0;
+                font-weight: 400;
+                letter-spacing: 1.2px;  
+                margin-left: 42px;
+            }
+            .Mybutton, .Mybutton1{
+                margin-left: 42px;
+                width: 126px;
+                margin-top: 20px;
+                padding: 8px;
+                background-color: #08395b;
+                color: #ffffff;
+                border-radius: 5px;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .Mybutton1{
+                margin-left: 5px;
                 background-color: black;
-             }
+            }
+            #Our{
+                margin-left: 43px;
+                margin-top: 108px;
+            }
+            h2{
+                margin-top: 2px;
+                font-size: 43px;
+                text-align: center;
+                
+            }
+            .pan p{
+                font-size: 26px;
+                margin-left: 348px;
+                margin-top: 15px;
+            }
+           .More{
+                margin-left: 38px;
+                margin-top: 50px;
+                border: solid 2px #dddddd;
+                margin-top: 67px;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            img{
+                
+                border-radius: 6.5px;
+                margin: 2px;
 
-    </style>
-</head>
-<body>
-    <div id="Mydiv">
-        <img src="C:\Users\Chanchal\Desktop\phone-removebg-preview.png" alt="Error" style=" height: 20px; width: 20px; margin-left: 4.5%;" >
-    <span>+91 9266423368</span>
-    
-        <img src="file:///C:/Users/Chanchal/Desktop/Email.webp" alt="Error" style="height: 20px; width: 20px; margin-left: 5%;"> 
-    <span>autoglitterz@gmail.om</span>
-    <span class="icons">
-        <img src="C:\Users\pc\Desktop\download-removebg-preview.png" alt="Error" style="height: 30px; width: 30px;">&nap; &nap;
-        <img src="C:\Users\pc\Desktop\download (2).png" alt="error" style="height: 30px; width: 30px;">&nap; &nap;
-        <img src="C:\Users\pc\Desktop\download (3).png" alt="error" style="height: 30px; width: 30px;">&nap; &nap;
-        <img src="file:///C:/Users/Chanchal/Desktop/Email.webp" alt="error" style="height: 30px; width: 30px;">
-       
-    </span>
-
-    </div>
-
-    <div id="MyId">
-        <img src="https://autoglitterz.com/images/logo-1.png" style="height: 70px; width: 130px; border-radius: 8px;" alt="error">
-        <ul>
-            <li><a href="Home">Home</a></li>
-            <li><a href="About Us">About Us</a></li>
-            <li><a href="Our Serivce">Our Serivce</a></li>
-            <li><a href="Blog">Blog</a></li>
-            <li><a href="Gallay">Gallay</a></li>
-            <li><a href="Contact">Contact</a></li>
-            <button style="margin-left: 19%;">Login</button>
+            }
+            #Read{
+                display: flex;
+                margin-left: 10px;
+            }
+            h4{
+                font-size: 20px;
+                margin-left: 10px;
+                margin-top: 26px;
+            }
+            .More p{
+                font-size: 18px;
+                margin-left: 10px;
+                margin-top: 20px
+            }
+            span{
+                margin-left: 10px;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <div>
             
-          </ul>
-    </div>
-    <div id="MyCar">
-        <div class="Myclass"><img src="https://autoglitterz.com/images/misc/car-2.png" alt="" style="height: 290px; width:550px; margin: 92px;"></div>
-        <h3>Welcome to Autoglitterz</h3>
-        <h1>Premium Car Care & <br>Detailing</h1><br>
-            <h6>
+            <div class="phone">
+                <img src="" alt="">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>+91 9266423368</span>
+                
+                <img src="" alt="">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <span>autoglitterz@gmail.com</span>
+
+                <span class="icons">
+                    <img src="" alt="">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+
+                    <img src="" alt="">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+
+                    <img src="" alt="">
+                    <i class="fa fa-youtube" aria-hidden="true"></i>
+
+                    <img src="" alt="">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </span>
+            </div>
+            
+            
+            <div id="MyId">
+                <img src="https://autoglitterz.com/images/logo-1.png" style="height: 70px; width: 90px; border-radius: 8px;" alt="error">
+                <ul>
+                    <li><a href="Home">Home</a></li>
+                    <li><a href="About Us">About Us</a></li>
+                    <li><a href="Our Serivce">Our Serivce</a></li>
+                    <li><a href="Blog">Blog</a></li>
+                    <li><a href="Gallay">Gallay</a></li>
+                    <li><a href="Contact">Contact</a></li>
+                    <button class="btn">Book Service</button>
+                </ul>
+            </div>
+
+
+            <div id="MyCar">
+                <div class="Myclass"><img src="https://autoglitterz.com/images/misc/car-2.png" alt="" style="height: 290px; width:482px;"></div>
+                <h3>Welcome to Autoglitterz</h3>
+                <h1>Premium Car Care & <br>Detailing</h1><br>
+                <h6>
                     Autoglitterz is your trusted partner for professional car <br>detailing. We offer top-quality services, including Paint <br>Protection Film (PPF), Ceramic Coating, Sunroof PPF,<br> Paint Restoration, and Eco-Friendly Car Wash.
-            </h6>
-            <button class="Mybutton">Call Now</button>
-            <button class="Mybutton1">Book Now</button>
+                </h6>
+                <button class="Mybutton">Call Now</button>
+                <button class="Mybutton1">Book Now</button>
+            </div>
+            <div id="Our">
+                <h2>Our Featured Services</h2>
+                <span class="pan">
+                   <p>
+                    we offer a wide range of premium car detailing services <br>designed to protect, enhance, and maintain your vehicle.
+                   </p>
+                </span>
+            </div>
+            
+            
+            <div id="Read">
+                
+                <div class="More">
+                    <img src="https://autoglitterz.com/images/car-single/ppf-5.jpg" alt="" style="height: 210px; width: 250px;">
+                    <h4>Paint Protection Film</h4>
+                    <p>Shield your car’s paint against <br>scratches, chips, and UV rays.</p><br><hr>
+                    <span>
+                        Starting Just <br>₹ 6999
+                        <button>Read More</button>
+                    </span>
+                </div>
+                
+                <div class="More">
+                    <img src="https://autoglitterz.com/images/car-single/sppf-5.png" alt="" style="height: 210px; width: 250px;">
+                    <h4>Sunroof PPF</h4>
+                    <p>Keep your sunroof safe from <br>UV rays and debris</p><br><hr>
+                    <span>
+                        Starting Just <br>₹ 5999
+                        <button>Read More</button>
+                    </span>
+                </div>
+                
+                <div class="More">
+                    <img src="https://autoglitterz.com/images/car-single/cc-5.jpg" alt="" style="height: 210px; width: 250px;">
+                    <h4>3M Ceramic Coating</h4>
+                    <p>
+                        Achieve a stunning, long- <br>lasting shine and hydrophobic
+                        protection.
+                    </p> <hr>
+                        <span>
+                           Starting Just <br>₹ 3999
+                        </span>
+                        <button>Read More</button>
+                    </div>
+                    
+                    <div class="More">
+                        <img src="https://autoglitterz.com/images/car-single/pr-5.jpg" alt="" style="height: 210px; width: 250px;">
+                        <h4>Paint Restoration</h4>
+                        <p>Restore your car's original <br>luster and shine with advanced <br>detailing services.</p><hr>
+                        <span class="Just">
+                            Starting Just <br>₹ 2999
+                            <button>Read More</button>
+                        </span>
+                        <div class="More">
+                            <img src="https://autoglitterz.com/images/car-single/ws-5.jpg" alt="" style="height: 210px; width: 250px;">
+                            <h4>Eco-Friendly Washing <br>Solutions</h4>
+                            <p>Sustainable Steam Wash and <br>Waterless Car Wash options</p><hr>
+                            <span>
+                                Starting Just <br>₹ 4999
+                                <button>Read More</button>
+                            </span>
+                            <div class="More">
+                                <img src="https://autoglitterz.com/images/car-single/it-5.jpg" alt="" style="height: 210px; width: 250px;">
+                                <h4>Interior Detailing</h4>
+                                <p>Refresh your cabin with deep <br>cleaning, and AC vent <br> disinfection.
+                                </p><hr>
+                                <span>
+                                    Starting Just <br>₹ 3999
+                                    <button>Read More</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    </button>
+                </div>
+                
+                
+                <div>
+                    <h1>About Us</h1>
+                    <p>
+                        At Autoglitterz, we specialize in advanced car detailing services for all types of vehicles. Located in Raj Nagar Extension, our goal is to protect and enhance your car’s beauty while minimizing environmental impact. Our services include PPF Installation, Ceramic Coating Application, Interior Detailing, and Eco-Friendly Car Wash options, all designed to keep your vehicle looking its best.
+                    </p>
+                    <button>Read More</button>
+                    <img src="" alt="">
+                </div>
+                
+                
+                <div>
+                    <div>
+                <h1>
+                    Why Choose Autoglitterz ?
+                </h1>
+                <img src="" alt="">
+                <h2>
+                    Top-Quality Products
+                </h2>
+                <p>
+                    We use brands like 3M, Llumar, and V Guard for unmatched quality.
+                </p>
+                <div>
+                    <img src="" alt="">
+                    <h2>
+                        Expert Technicians
+                    </h2>
+                    <p>
+                        Our experienced detailers treat every car with the utmost care.
+                    </p>
+                    <div>
+                        <img src="" alt="">
+                        <h2>
+                            Sustainable Practices
+                        </h2>
+                        <p>
+                            Eco-friendly detailing methods to conserve water
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div>
+            <div>
+                <h2>
+                    15425
+                </h2>
+                <h4>
+                    Trips Powered
+                </h4>
+                <span>
+                    Trusted by thousands, we power smooth journeys for our clients every day, ensuring safety and comfort on every trip.
+                </span>
+                <div>
+                    <h2>
+                        8745
+                    </h2>
+                    <h4>
+                        Happy Customers
+                    </h4>
+                    <span>
+                        With customer satisfaction at the core, we’ve made thousands of clients happy by delivering top-notch car care and detailing services.
+                    </span>
+                    <div>
+                        <h2>
+                            235
+                        </h2>
+                        <h4>
+                            Fleets Vehicle
+                        </h4>
+                        <span>
+                            Our extensive fleet includes high-quality vehicles, maintained to provide exceptional detailing and protection for our clients.
+                        </span>
+                        <div>
+                            <h2>
+                                15
+                            </h2>
+                            <h4>
+                                Years Experience
+                            </h4>
+                            <span>
+                                With over a decade of expertise, we are leaders in the auto detailing industry, offering reliable, high-quality
+                                services.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <img src="" alt="">
+                <h4>
+                    Exceptional Detailing Experience!Exceptional Detailing Experience!
+                </h4>
+                <span>
+                    
+                    I opted for the Ceramic Coating, and my car has never looked better. The gloss is phenomenal, and I love the water-repellent finish. Autoglitterz truly delivers on their promises! <br> ---Ankit R
+                </span>
+            </div>
+            <div>
+                <img src="" alt="">
+                <h4>
+                    Professional and Reliable!
+                </h4>
+                <span>
+                    
+                    The PPF installation was done meticulously. I couldn’t be happier with the
+                    result, and the service was great from start to finish. I highly recommend Autoglitterz. <br>---Priya S.
+                    
+                </span>
+            </div>
+            <div>
+                <img src="" alt="">
+                <h4>
+                    Eco-Friendly and Effective!
+                </h4>
+                <span>
+                    
+                    I appreciate their eco-friendly washing solution. Not only did my car come
+                    out sparkling clean, but it felt good knowing they conserved water. Great job! <br>---Neha M
+                </span>
+            </div>
+            <div>
+                <img src="" alt="">
+                <h4>
+                    Top-Notch Interior Cleaning!
+                </h4>
+                <span>
+                    
+                    "I chose the interior detailing service, and it exceeded my expectations.The AC vent disinfection and germ treatment left my car feeling fresh. The team was very professional! <br>---Rajat P
+                    
+                </span>
+            </div>
+            <div>
+                <img src="" alt="">
+                <h4>
+                    Exceptional Detailing Experience!Exceptional Detailing Experience!
+                </h4>
+                <span>
+                    
+                    I opted for the Ceramic Coating, and my car has never looked better. The
+                    gloss is phenomenal,
+                    and I love the water-repellent finish. Autoglitterz truly delivers on their promises!
+                </span>
+            </div>
+            <div>
+                <img src="" alt="">
+                <h4>
+                    Exceptional Detailing Experience!Exceptional Detailing Experience!
+                </h4>
+                <span>
+                    
+                    I opted for the Ceramic Coating, and my car has never looked better. The
+                    gloss is phenomenal,
+                    and I love the water-repellent finish. Autoglitterz truly delivers on their promises!
+                </span>
+            </div>
+            <div>
+                <img src="" alt="">
+                <h4>
+                    Exceptional Detailing Experience!Exceptional Detailing Experience!
+                </h4>
+                <span>
+                    
+                    I opted for the Ceramic Coating, and my car has never looked better. The
+                    gloss is phenomenal,
+                    and I love the water-repellent finish. Autoglitterz truly delivers on their promises!
+                </span>
+            </div>
+            <div>
+                <img src="" alt="">
+                <h4>
+                    Exceptional Detailing Experience!Exceptional Detailing Experience!
+                </h4>
+                <span>
+                    
+                    I opted for the Ceramic Coating, and my car has never looked better. The
+                    gloss is phenomenal,
+                    and I love the water-repellent finish. Autoglitterz truly delivers on their promises!
+                </span>
+            </div>
+            <div>
+                <img src="" alt="">
+                <h4>
+                    Exceptional Detailing Experience!Exceptional Detailing Experience!
+                </h4>
+                <span>
+                    
+                    I opted for the Ceramic Coating, and my car has never looked better. The
+                    gloss is phenomenal,
+                    and I love the water-repellent finish. Autoglitterz truly delivers on their promises!
+                </span>
+            </div>
+        </div>
     </div>
-    
-    <!-- <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempore, minus enim deleniti iusto non voluptates itaque tempora, rem, excepturi eum pariatur! Assumenda cum inventore quidem in, minima delectus laudantium?</span> -->
-    
-</body>
-</html>
+        </body>
+        </html>
+        
